@@ -1,0 +1,82 @@
+.i
+{
+    height: 40px;
+    width: 40px;
+    float:left;
+    margin: 75px 70px;
+    cursor: pointer;
+}
+.t
+{
+    margin: 30px 530px;
+	font: 50px bold;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	border:none;
+	outline:none;
+	width: 400px;
+	height: 100px;
+}
+.t1
+{
+	margin: 20px 230px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: block;
+	color:black;
+	cursor: pointer;
+}
+.t2
+{
+	margin: 5px 230px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: block;
+	color:black;
+	cursor: pointer;
+}
+.t3
+{
+	margin: 20px 230px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: block;
+	color:black;
+	cursor: pointer;
+}
+.t4
+{
+	margin: 10px 230px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: block;
+	color:black;
+	cursor: pointer;
+}
+.i1
+{
+    margin: 15px 160px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.i2
+{
+    margin: 0px 160px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.i3
+{
+    margin: 15px 160px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+}
+.i4
+{
+    margin: 0px 150px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}

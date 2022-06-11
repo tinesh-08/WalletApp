@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<title>Wallet App</title>
+<script type="text/javascript" src="https://webqr.com/llqrcode.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript" src="https://webqr.com/webqr.js"></script>
+</head>
+<link rel="stylesheet" href="css/pvqrc.css">
+<body id="appBody" style="background-color: ghostwhite;">
+<br><img src="images/b.jpg" onclick="window.location.href='home.html'" class="i"></img>
+<br><p>WALLET&nbsp;APP</p>
+<div id="main">
+<div id="header">
+<div id="mainbody">
+<table class="tsel" border="0" width="100%">
+<tr>
+<td valign="top" align="center" width="50%">
+<table class="tsel" border="0">
+<tr>
+<td><img class="selector" id="webcamimg" src="https://webqr.com/vid.png" onclick="setwebcam()" align="left" /></td>
+<td><img class="selector" id="qrimg" src="https://webqr.com/cam.png" onclick="setimg()" align="right"/></td></tr>
+<tr><td colspan="2" align="center">
+<div id="outdiv">
+</div></td></tr>
+</table>
+</td>
+</tr>
+<tr><td colspan="3" align="center">
+<div id="result"></div>
+</td></tr>
+</table>    
+</div>&nbsp;
+</div>
+<script>
+setwebcam();
+</script>
+<input type="submit" value="&nbsp;&nbsp;&nbsp;&nbsp;PAY&nbsp;&nbsp;&nbsp;&nbsp;" class="btn2" onclick="window.location.href='home.html'"></input>
+<input type="button" value="CANCEL" class="btn3" onclick="window.location.href='pay.html'"></input>
+</body>
+</html>
